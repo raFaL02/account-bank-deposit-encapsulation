@@ -1,6 +1,8 @@
-package entities;public class Account {
+package entities;
 
-    private int accountNumber;
+public class Account {
+
+    private final int accountNumber;
     private String holder;
     private double balance;
 
